@@ -1,0 +1,10 @@
+Storage location for the following files:
+BathymetryGrid.mat
+HighDefNorthSea_RelevantOnly.mat
+kappaCDFLookupTable.mat
+NorthSeaFlowJuly1July10.mat
+shippingNoise.mat
+WindNoise.mat
+
+shippingNoise.mat and WindNoise.mat can be downloaded from:
+https://figshare.com/s/04b925ead5b10e58afb2
