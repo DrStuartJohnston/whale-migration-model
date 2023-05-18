@@ -125,8 +125,8 @@ if strcmpi(terrainMap,'NorthSea')
     latGoal = 61;                                   % Lat location of target.
     lonGoal = -5;                                   % Lon location of target.
     [goalLocationX,goalLocationY] = projfwd(projection,latGoal,lonGoal);  % Calculate x,y position of target location.
-    startLat = 53;                                  % Starting latitude for north sea map.
-    startLon = 4;                                   % Starting longitude for north sea map.
+    startLat = 54;                                  % Starting latitude for north sea map.
+    startLon = 5;                                   % Starting longitude for north sea map.
     load('NorthSeaFlowJuly1July10.mat');            % Load current data from HYCOM.
     NorthSeaFlow = hawaii_soest_7e38_7a7b_afxhffc2; 
     lonFlowGrid = NorthSeaFlow.longitude;           % Grid points for latitude for currents.
